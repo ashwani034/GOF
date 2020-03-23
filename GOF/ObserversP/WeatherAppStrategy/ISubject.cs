@@ -9,7 +9,6 @@ namespace GOF.ObserversP.WeatherAppStrategy
         public void registerObserver(T o);
         public void removeObserver(T o);
         public void notifyObservers();
-
     }
 
     public interface IWeatherObserver
